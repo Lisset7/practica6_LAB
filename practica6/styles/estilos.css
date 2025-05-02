@@ -1,0 +1,147 @@
+/* Reset básico (debes mantener el reset.css aparte) */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Estilos base para toda la página */
+body {
+  font-family: Georgia, Cambria, "Times New Roman", serif;
+  font-size: 100%;
+  background-color: rgb(161, 200, 223);
+  color: #333;
+  padding: 20px;
+  line-height: 1.6;
+}
+
+/* Encabezado principal */
+h1 {
+  font-family: "Trebuchet MS", "Lucida Grande", Tahoma, sans-serif;
+  font-size: 1.5rem;
+  color: white;
+  margin-bottom: 0.5em;
+  text-transform: uppercase;
+}
+
+/* Barra de navegación */
+nav {
+  font-family: "Trebuchet MS", "Lucida Grande", Tahoma, sans-serif;
+  font-size: 1.125rem;
+  background-color: rgb(165, 208, 224);
+  padding: 0.8em;
+  margin: 1em 0;
+}
+
+nav ul {
+  list-style-type: none;
+  display: flex;
+  gap: 1.5em;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  padding: 0.25em;
+}
+
+nav a:hover {
+  background-color: rgb(255, 255, 204);
+  color: #333;
+}
+
+/* Encabezados secundarios */
+h2 {
+  font-family: "Trebuchet MS", "Lucida Grande", Tahoma, sans-serif;
+  font-size: 1.2rem;
+  color: #728896;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 0.3em;
+  margin: 1em 0;
+}
+
+h3 {
+  font-family: "Trebuchet MS", "Lucida Grande", Tahoma, sans-serif;
+  font-size: 1em;
+  color: #3D6271;
+  margin: 15px 0 8px 0;
+  border-bottom: solid 1pt rgb(153, 153, 153);
+}
+
+/* Contenedor principal */
+main {
+  background-color: white;
+  margin: 1em 4em;
+  padding: 1.5em;
+  border-radius: 4px;
+}
+
+/* Párrafos */
+p {
+  font-size: 1rem;
+  margin-bottom: 0.8em;
+  letter-spacing: 0.5px;
+}
+
+/* Sección de Descripción */
+.description {
+  background-color: white;
+  padding: 1em;
+  margin-bottom: 1.5em;
+}
+
+.description p {
+  font-style: italic;
+  color: #555;
+}
+
+/* Botones de compartir */
+.share-buttons {
+  display: flex;
+  gap: 0.5em;
+  margin: 1em 0;
+}
+
+.share-buttons span {
+  font-size: 1.2em;
+  cursor: pointer;
+}
+
+/* Sección de Reseñas */
+.reviews {
+  background-color: #f9f9f9;
+  padding: 1em;
+  border-left: 3px solid #3D6271;
+  margin-top: 1.5em;
+}
+
+.review {
+  margin-bottom: 1em;
+  padding-bottom: 1em;
+  border-bottom: 1px dashed #ccc;
+}
+
+.review:last-child {
+  border-bottom: none;
+}
+
+.review-author {
+  font-weight: bold;
+  color: #3D6271;
+}
+
+.review-date {
+  color: #999;
+  font-size: 0.8em;
+  margin-left: 0.5em;
+}
+
+/* Footer */
+footer {
+  background-color: #3D6271;
+  color: white;
+  padding: 1em;
+  text-align: center;
+  margin: 2em 4em 0 4em;
+  font-size: 0.9em;
+}
